@@ -1,21 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import classes from "./App.module.css";
+import MyHeader from "./components/header/MyHeader";
+import MyMain from "./components/main/MyMain";
+import MyFooter from "./components/footer/MyFooter";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>hello</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MyHeader />
+      <MyMain />
+      <MyFooter />
+    </>
   );
 }
 
