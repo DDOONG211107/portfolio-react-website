@@ -2,8 +2,6 @@
   background-color: aquamarine;
   height: 80vh;
   padding: 0 50vh;
-  /* padding-top: 3rem; */
-  padding-bottom: auto;
   overflow-y: scroll;
 }
 
