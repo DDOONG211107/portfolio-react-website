@@ -1,4 +1,110 @@
 .main {
   background-color: aquamarine;
   height: 80vh;
+  padding: 0 50vh;
+  /* padding-top: 3rem; */
+  padding-bottom: auto;
+  overflow-y: scroll;
+}
+
+.firstCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  margin: 7vh auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.secondCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin-bottom: 7vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.thirdCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin-bottom: 7vh;
+  margin-left: auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.fourthCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin-bottom: 7vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardLeft {
+  background-color: violet;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  width: 40%;
+}
+
+.cardLeft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+}
+.cardRight {
+  background-color: orange;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  width: 60%;
+}
+
+.cardDes {
+  background-color: violet;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  width: 50%;
+}
+
+.cardLink {
+  background-color: orange;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  width: 50%;
+}
+
+.thirdCardLink {
+  background-color: orange;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  width: 50%;
+}
+
+.thirdCardDes {
+  background-color: violet;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  width: 50%;
 }
