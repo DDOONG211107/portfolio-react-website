@@ -65,12 +65,17 @@
   width: 40%;
 }
 
+.mobileCardLeft {
+  display: none;
+}
+
 .cardLeft img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-top-left-radius: 32px;
   border-bottom-left-radius: 32px;
+  display: inline-block;
 }
 .cardRight {
   background-color: orange;
@@ -105,4 +110,130 @@
   border-top-right-radius: 32px;
   border-bottom-right-radius: 32px;
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  .main {
+    background-color: aquamarine;
+    height: 85vh;
+    padding: 0 5vh;
+    overflow-y: scroll;
+  }
+
+  .firstCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 7vh auto;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobileCardLeft {
+    display: block;
+  }
+
+  .cardLeft img {
+    display: none;
+  }
+  .secondCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 0 auto 7vh auto;
+    /* margin-bottom: 7vh; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thirdCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 0 auto 7vh auto;
+    /* margin-bottom: 7vh; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .fourthCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 0 auto 7vh auto;
+    /* margin-bottom: 7vh; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* first카드(자기소개 카드)의 부분1 */
+  .cardLeft {
+    background-color: violet;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* first카드(자기소개 카드)의 부분2 */
+  .cardRight {
+    background-color: orange;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    height: 50%;
+  }
+
+  .cardDes {
+    background-color: violet;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    height: 80%;
+  }
+
+  .cardLink {
+    background-color: orange;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    height: 20%;
+  }
+
+  .thirdCardDes {
+    background-color: violet;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    height: 80%;
+  }
+  .thirdCardLink {
+    background-color: orange;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    height: 20%;
+  }
 }

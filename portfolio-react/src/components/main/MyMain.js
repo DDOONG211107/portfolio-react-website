@@ -7,6 +7,7 @@ export default function MyMain() {
       <div className={classes.firstCard}>
         <div className={classes.cardLeft}>
           <img src={faceImg} alt="프로필 사진" className={classes.image} />
+          <div className={classes.mobileCardLeft}>자기소개 설명1</div>
         </div>
         <div className={classes.cardRight}>자기소개 설명2</div>
       </div>
