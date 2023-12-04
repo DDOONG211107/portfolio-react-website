@@ -1,6 +1,6 @@
 .main {
   background-color: aquamarine;
-  height: 80vh;
+  height: 83vh;
   padding: 0 50vh;
   overflow-y: scroll;
 }
@@ -11,9 +11,9 @@
   background-color: rgb(216, 233, 255);
   border-radius: 32px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  max-width: 80%;
+  /* max-width: 80%; */
   margin: 7vh auto;
-  height: 30vh;
+  height: 35vh;
   display: flex;
   flex-direction: row;
 }
@@ -82,6 +82,20 @@
   border-top-right-radius: 32px;
   border-bottom-right-radius: 32px;
   width: 60%;
+  padding: 1rem;
+}
+
+.cardRight h3 {
+  margin: 1rem auto;
+}
+
+.cardRight ol {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.cardRight li {
+  padding-bottom: 0.5rem;
 }
 
 .cardDes {
@@ -128,13 +142,36 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     max-width: 100%;
     margin: 7vh auto;
-    height: 30vh;
+    height: 22rem;
     display: flex;
     flex-direction: column;
   }
 
+  .firstCard .cardLeft {
+    background-color: rgb(66, 29, 66);
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    height: 0%;
+  }
+  .firstCard .cardRight {
+    background-color: orange;
+    border-radius: 32px;
+    width: 90%;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .cardRight ol {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  .cardRight li {
+    padding-bottom: 0.5rem;
+  }
+
   .mobileCardLeft {
-    display: block;
+    display: none;
   }
 
   .cardLeft img {
