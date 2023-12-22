@@ -1,4 +1,10 @@
-.footer {
-  background-color: cornflowerblue;
-  height: 5vh;
+.myFooter {
+  background-color: #f8e1d1;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  height: 4%;
+  width: 100%;
+  border-top: 2px solid #7c5d48;
+  text-align: center;
 }

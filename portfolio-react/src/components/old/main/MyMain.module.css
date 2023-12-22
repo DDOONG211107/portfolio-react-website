@@ -1,0 +1,318 @@
+.main {
+  background-color: aquamarine;
+  height: 83vh;
+  padding: 0 30vw;
+  overflow-y: scroll;
+}
+
+.firstCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  /* max-width: 80%; */
+  margin: 7vh auto;
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.secondCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  margin-bottom: 7vh;
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.thirdCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin-bottom: 7vh;
+  margin-left: auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.fourthCard {
+  margin: 0;
+  background-color: aliceblue;
+  background-color: rgb(216, 233, 255);
+  border-radius: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin-bottom: 7vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardLeft {
+  background-color: violet;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  width: 40%;
+}
+
+.mobileCardLeft {
+  display: none;
+}
+
+.cardLeft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  display: inline-block;
+}
+.cardRight {
+  background-color: orange;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  width: 60%;
+  padding: 1rem;
+}
+
+.cardRight h3 {
+  margin: 1rem auto;
+}
+
+.cardRight ol {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.cardRight li {
+  padding-bottom: 0.5rem;
+}
+
+.cardDes {
+  background-color: violet;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  width: 17vw;
+  padding: 1rem;
+  height: auto;
+}
+
+.cardDes h3 {
+  margin: 1.2rem auto;
+}
+
+.cardDes ol {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.cardDes li {
+  padding-bottom: 0.7rem;
+}
+
+.cardLink {
+  background-color: orange;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  width: 17vw;
+}
+
+.cardLink img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  position: relative;
+}
+
+.cardLink .imageCover {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* .cardLink .imageLink {
+  position: absolute;
+
+} */
+
+.thirdCardLink {
+  background-color: orange;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  width: 50%;
+}
+
+.thirdCardDes {
+  background-color: violet;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .main {
+    background-color: aquamarine;
+    height: 85vh;
+    padding: 0 5vh;
+    overflow-y: scroll;
+  }
+
+  .firstCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 7vh auto;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstCard .cardLeft {
+    background-color: rgb(66, 29, 66);
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    height: 0%;
+  }
+  .firstCard .cardRight {
+    background-color: orange;
+    border-radius: 32px;
+    width: auto;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .cardRight ol {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  .cardRight li {
+    padding-bottom: 0.5rem;
+  }
+
+  .mobileCardLeft {
+    display: none;
+  }
+
+  .cardLeft img {
+    display: none;
+  }
+  .secondCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 0 auto 7vh auto;
+    /* margin-bottom: 7vh; */
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thirdCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 0 auto 7vh auto;
+    /* margin-bottom: 7vh; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .fourthCard {
+    margin: 0;
+    background-color: aliceblue;
+    background-color: rgb(216, 233, 255);
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin: 0 auto 7vh auto;
+    /* margin-bottom: 7vh; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* first카드(자기소개 카드)의 부분1 */
+  .cardLeft {
+    background-color: violet;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  /* first카드(자기소개 카드)의 부분2 */
+  .cardRight {
+    background-color: orange;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: auto;
+    height: 50%;
+  }
+
+  .cardDes {
+    background-color: violet;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 0;
+    width: auto;
+    height: 80%;
+  }
+
+  .cardLink {
+    background-color: orange;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    height: 20%;
+  }
+
+  .cardLink img {
+    display: none;
+  }
+
+  .thirdCardDes {
+    background-color: violet;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    height: 80%;
+  }
+  .thirdCardLink {
+    background-color: orange;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+    height: 20%;
+  }
+}

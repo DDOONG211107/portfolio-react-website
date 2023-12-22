@@ -1,7 +1,18 @@
 .card {
-  background-color: rgb(216, 233, 255);
-  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 18px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  max-width: 60%;
-  height: 15vh;
+  width: 860px;
+  height: 380px;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
 }

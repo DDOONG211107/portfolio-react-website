@@ -1,0 +1,21 @@
+.pcBody {
+  display: block;
+  background-color: lightblue;
+}
+
+.mobileBody {
+  display: none;
+  background-color: lightcoral;
+}
+
+@media (max-width: 767px) {
+  .pcBody {
+    display: none;
+    background-color: lightblue;
+  }
+
+  .mobileBody {
+    display: block;
+    background-color: lightcoral;
+  }
+}

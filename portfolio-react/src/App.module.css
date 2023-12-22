@@ -1,0 +1,17 @@
+.pcMain {
+  display: block;
+}
+
+.mobileMain {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .pcMain {
+    display: none;
+  }
+
+  .mobileMain {
+    display: block;
+  }
+}
