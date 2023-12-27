@@ -22,8 +22,14 @@ export default function MyHeader() {
         onClose={toggleDrawer}
         direction="top"
         className={classes.mobileDrawer}
+        size="16%"
+
+        // style="top:8%"
       >
-        <div>Hello World</div>
+        <ul>
+          <li>React Project - 마이홈 계산기</li>
+          <li>ReactNative Project - 과외도우미</li>
+        </ul>
       </Drawer>
 
       <nav className={classes.myPcNav}>
