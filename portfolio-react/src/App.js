@@ -1,15 +1,20 @@
-import MyHeader from "./components/header/MyHeader";
-import MyMain from "./components/main/MyMain";
-import MyFooter from "./components/footer/MyFooter";
+import Homepage from "./pages/Home";
+import Test from "./pages/Test";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Homepage />,
+  },
+  {
+    path: "test",
+    element: <Test />,
+  },
+]);
 
 function App() {
-  return (
-    <body>
-      <MyHeader />
-      <MyMain />
-      <MyFooter />
-    </body>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;

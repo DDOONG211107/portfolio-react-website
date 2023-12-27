@@ -17,7 +17,7 @@
   color: #3d2a1e;
 }
 
-.header nav ul {
+.header .myPcNav ul {
   display: flex;
   justify-content: center;
   border-top: 2px solid #7c5d48;
@@ -26,8 +26,16 @@
   padding: 12px 0;
 }
 
-.header nav ul li {
+.header .myPcNav ul li {
   margin: 0 80px;
+}
+
+.mobileDrawerBtn {
+  display: none;
+}
+
+.mobileDrawer {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -54,7 +62,20 @@
     font-weight: bold;
     color: rgb(255, 252, 247);
   }
-  .header nav {
+  .header .myPcNav {
     display: none;
+  }
+
+  .mobileDrawerBtn {
+    display: flex;
+    /* background-color: aqua; */
+    margin-right: -46px;
+    font-size: 2rem;
+    align-items: center;
+    color: rgb(255, 252, 247);
+  }
+
+  .mobileDrawer {
+    display: block;
   }
 }
