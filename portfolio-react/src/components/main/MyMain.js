@@ -1,6 +1,7 @@
 import classes from "./MyMain.module.css";
 import Card from "../UI/Card/Card.js";
 import faceImg from "../../public/images/face-pink-bg.jpg";
+import myhomeImg from "../../public/images/myhome-cal.png";
 import strObj from "../../public/data/desStrArr.js";
 import { FaCheck } from "react-icons/fa";
 
@@ -30,14 +31,44 @@ export default function MyMain() {
           </section>
         </Card>
       </article>
-      <article className={classes.mainCard}>
-        <Card>마이홈 카드</Card>
+      <article className={classes.projectCard}>
+        <Card>
+          <div className={classes.cardContents}>
+            <a
+              className={classes.imageLink}
+              href="http://ddoongtest.shop"
+              target="blank"
+            >
+              <img src={myhomeImg} alt="계산기 사이트 이미지" />
+            </a>
+            <p className={classes.projectSummary}>마이홈 요약</p>
+            <a href="/" target="blank" className={classes.popolLink}>
+              포폴:마이홈 링크
+            </a>
+          </div>
+        </Card>
       </article>
-      <article className={classes.mainCard}>
-        <Card>과외앱 카드</Card>
+      <article className={classes.projectCard}>
+        <Card>
+          <div className={classes.cardContents}>
+            <a
+              className={classes.imageLink}
+              href="http://ddoongtest.shop"
+              target="blank"
+            >
+              <img src={myhomeImg} alt="과외앱 이미지" />
+            </a>
+            <p className={classes.projectSummary}>과외앱 요약</p>
+            <a href="/" target="blank" className={classes.popolLink}>
+              포폴:과외앱 링크
+            </a>
+          </div>
+        </Card>
       </article>
-      <article className={classes.mainCard}>
-        <Card>포폴 카드</Card>
+      <article className={classes.projectCard}>
+        <Card>
+          <div>포폴카드: 포폴 사이트 소개</div>
+        </Card>
       </article>
     </section>
   );

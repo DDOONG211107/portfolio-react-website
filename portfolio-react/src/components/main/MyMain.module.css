@@ -15,6 +15,12 @@
   display: block;
 }
 
+.projectCard {
+  /* background-color: aqua; */
+  margin: 48px auto 82px auto;
+  display: block;
+}
+
 .mobileImgBg {
   display: none;
 }
@@ -55,6 +61,47 @@
   color: #a87550;
 }
 
+.projectCard .cardContents {
+  background-color: #a87550;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 85% 15%;
+  border-radius: 18px;
+}
+
+.projectCard .cardContents .imageLink {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+
+.imageLink img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.projectCard .cardContents p {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-color: white;
+  border-top-right-radius: 18px;
+}
+
+.projectCard .cardContents .popolLink {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  border-top: 2px solid #7c5d48;
+  background-color: #f8e1d1;
+  border-bottom-right-radius: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+}
+
 @media (max-width: 768px) {
   .myMain {
     position: fixed;
@@ -71,7 +118,16 @@
     /* background-color: aqua; */
     margin: 10px;
     display: block;
+    margin-bottom: 42px;
   }
+
+  .projectCard {
+    /* background-color: aqua; */
+    margin: 10px;
+    display: block;
+    margin-bottom: 42px;
+  }
+
   .mobileImgBg {
     display: block;
     width: 100%;
@@ -103,4 +159,51 @@
     margin: 0.6rem 0;
     line-height: 1.5rem;
   }
+
+  .projectCard .cardContents {
+    background-color: #a87550;
+    display: grid;
+    width: 100%;
+    height: 60%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90% 10%;
+    border-radius: 18px;
+  }
+
+  .projectCard .cardContents .imageLink {
+    grid-row: 1/2;
+    grid-column: 1/3;
+  }
+
+  .imageLink img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 0;
+  }
+
+  .projectCard .cardContents p {
+    /* grid-row: 1/2;
+    grid-column: 2/3;
+    background-color: white;
+    border-top-right-radius: 18px; */
+    display: none;
+  }
+
+  .projectCard .cardContents .popolLink {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    background-color: #f8e1d1;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+  }
+  /* .popolLink div {
+    align-self: center;
+    background-color: aqua;
+  } */
 }
