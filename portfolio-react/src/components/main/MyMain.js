@@ -43,7 +43,7 @@ export default function MyMain() {
               <img src={myhomeImg} alt="계산기 사이트 이미지" />
             </a>
             <p className={classes.projectSummary}>마이홈 요약</p>
-            <Link to={`test`} target="blank" className={classes.popolLink}>
+            <Link to={`test`} className={classes.popolLink}>
               포폴:마이홈 링크
             </Link>
           </div>
