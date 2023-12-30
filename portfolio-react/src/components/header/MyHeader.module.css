@@ -50,6 +50,7 @@
     /* text-align: center; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
     z-index: 200;
     border-bottom: 4px solid #f8e1d1;

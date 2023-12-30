@@ -3,6 +3,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function MyHeader() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,8 +13,9 @@ export default function MyHeader() {
 
   return (
     <div className={classes.header}>
-      <h1>Sunny's WebDev Portfolio</h1>
-
+      <Link to={"/"}>
+        <h1>Sunny's WebDev Portfolio</h1>
+      </Link>
       <button className={classes.mobileDrawerBtn} onClick={toggleDrawer}>
         <GiHamburgerMenu />
       </button>

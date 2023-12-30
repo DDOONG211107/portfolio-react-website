@@ -2,6 +2,7 @@ import classes from "./MyMain.module.css";
 import Card from "../UI/Card/Card.js";
 import faceImg from "../../public/images/face-pink-bg.jpg";
 import myhomeImg from "../../public/images/myhome-cal.png";
+import tutoringImg from "../../public/images/logo.png";
 import strObj from "../../public/data/desStrArr.js";
 import { FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -43,7 +44,7 @@ export default function MyMain() {
               <img src={myhomeImg} alt="계산기 사이트 이미지" />
             </a>
             <p className={classes.projectSummary}>마이홈 요약</p>
-            <Link to={`test`} className={classes.popolLink}>
+            <Link to={"/myhome-des"} className={classes.popolLink}>
               포폴:마이홈 링크
             </Link>
           </div>
@@ -54,15 +55,15 @@ export default function MyMain() {
           <div className={classes.cardContents}>
             <a
               className={classes.imageLink}
-              href="http://ddoongtest.shop"
+              href="https://youtu.be/LVNzFYBT0bk"
               target="blank"
             >
-              <img src={myhomeImg} alt="과외앱 이미지" />
+              <img src={tutoringImg} alt="과외앱 이미지" />
             </a>
             <p className={classes.projectSummary}>과외앱 요약</p>
-            <a href="/" target="blank" className={classes.popolLink}>
+            <Link to={"/tutoring-des"} className={classes.popolLink}>
               포폴:과외앱 링크
-            </a>
+            </Link>
           </div>
         </Card>
       </article>
