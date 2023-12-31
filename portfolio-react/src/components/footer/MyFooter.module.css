@@ -9,8 +9,13 @@
   text-align: center;
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 .myFooter a {
-  margin: 0 auto;
+  display: flex;
+  font-size: 22px;
+  justify-content: center;
+  margin: 0 20px;
+  color: #463021;
 }
