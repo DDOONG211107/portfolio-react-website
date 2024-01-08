@@ -1,0 +1,125 @@
+.emailFormNameInput {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.emailFormNameInput label {
+  font-weight: 600;
+}
+
+.emailFormNameInput input {
+  height: 1.8rem;
+  margin-top: 8px;
+  border: 1px solid #4e4640;
+}
+
+.emailFormAddressInput {
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.emailFormAddressInput label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.emailFormAddressInput input {
+  height: 1.8rem;
+  border: 1px solid #4e4640;
+  margin-top: 8px;
+}
+.emailFormContentTitle {
+  font-weight: 600;
+  margin-top: 20px;
+}
+.emailFormContent {
+  text-align: left;
+  font-weight: 600;
+  /* background-color: aqua; */
+  /* height: 30%; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.emailFormContent textarea {
+  width: 100%;
+  height: 10rem;
+  resize: none;
+  font-weight: normal;
+  border: 1px solid #4e4640;
+  margin-top: 8px;
+}
+
+.submitBtn {
+  border: 1px solid #4e4640;
+  background-color: #7c5d48;
+  color: white;
+  width: 5rem;
+  text-align: center;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .emailFormNameInput {
+    text-align: left;
+  }
+
+  .emailFormNameInput label {
+    font-weight: 600;
+  }
+
+  .emailFormNameInput input {
+    height: 1.8rem;
+  }
+
+  .emailFormAddressInput {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .emailFormAddressInput label {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .emailFormAddressInput input {
+    height: 1.8rem;
+  }
+
+  .emailFormContentTitle {
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .emailFormContent {
+    text-align: left;
+    font-weight: 600;
+    /* background-color: aqua; */
+    /* height: 30%; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .emailFormContent textarea {
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    font-weight: normal;
+  }
+
+  .submitBtn {
+    border: 1px solid #4e4640;
+    background-color: #7c5d48;
+    color: white;
+    width: 5rem;
+    text-align: center;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
+}

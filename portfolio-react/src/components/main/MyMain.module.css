@@ -143,6 +143,10 @@
   padding-left: 18px;
 }
 
+.projectCard .cardContents .popolLink:hover {
+  background-color: #e2bfa6;
+}
+
 @media (max-width: 768px) {
   .myMain {
     position: fixed;

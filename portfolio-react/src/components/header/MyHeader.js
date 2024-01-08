@@ -29,15 +29,23 @@ export default function MyHeader() {
         // style="top:8%"
       >
         <ul>
-          <li>React Project - 마이홈 계산기</li>
-          <li>ReactNative Project - 과외도우미</li>
+          <li>
+            <Link to={"/myhome-des"}>놀러와 마이홈 계산기(React)</Link>
+          </li>
+          <li>
+            <Link to={"/tutoring-des"}>과외앱 도우미(React Native)</Link>
+          </li>
         </ul>
       </Drawer>
 
       <nav className={classes.myPcNav}>
         <ul>
-          <li>놀러와 마이홈 계산기(React)</li>
-          <li>과외앱 도우미(React Native)</li>
+          <li>
+            <Link to={"/myhome-des"}>놀러와 마이홈 계산기(React)</Link>
+          </li>
+          <li>
+            <Link to={"/tutoring-des"}>과외앱 도우미(React Native)</Link>
+          </li>
         </ul>
       </nav>
     </div>

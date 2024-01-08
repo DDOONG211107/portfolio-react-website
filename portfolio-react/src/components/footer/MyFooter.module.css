@@ -19,3 +19,12 @@
   margin: 0 20px;
   color: #463021;
 }
+
+.myFooter .mailIcon {
+  display: flex;
+  font-size: 22px;
+  justify-content: center;
+  margin: 0 20px;
+  color: #463021;
+  cursor: pointer;
+}

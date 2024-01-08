@@ -17,6 +17,10 @@
   color: #3d2a1e;
 }
 
+.header h1:hover {
+  color: #92684d;
+}
+
 .header .myPcNav ul {
   display: flex;
   justify-content: center;
@@ -28,6 +32,13 @@
 
 .header .myPcNav ul li {
   margin: 0 80px;
+}
+
+.myPcNav a:hover {
+  /* background-color: #3d2a1e; */
+
+  /* background-color: #fff5ee; */
+  color: #92684d;
 }
 
 .mobileDrawerBtn {
